@@ -19,8 +19,9 @@ function BankAcoount()
         <>
         <h1>Wallate Balance:{amount}</h1>
         <button className="btn" onClick={handleAdd}>Add Money</button>
-        <button className="btn" onClick={handleWithdraw}>Withdraw Money</button>
+        <button className="btn"  onClick={handleWithdraw}>Withdraw Money</button>
         </>
+        // disabled ={amount === 0}(button disabled )
     )
 }
 export default BankAcoount ;
